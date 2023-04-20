@@ -1,0 +1,1 @@
+select * from Real_Estate_Sales_2001_2020_GL

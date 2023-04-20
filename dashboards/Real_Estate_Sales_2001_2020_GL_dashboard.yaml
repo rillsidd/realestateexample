@@ -1,0 +1,37 @@
+# Visit https://docs.rilldata.com/references/project-files to learn more about Rill project files.
+
+display_name: "Real_Estate_Sales_2001_2020_GL_dashboard"
+model: "Real_Estate_Sales_2001_2020_GL_model"
+default_time_range: ""
+smallest_time_grain: ""
+timeseries: "Date Recorded"
+measures:
+  - label: Total records
+    expression: count(*)
+    description: Total number of records present
+    format_preset: humanize
+dimensions:
+  - label: Town
+    property: Town
+    description: ""
+  - label: Address
+    property: Address
+    description: ""
+  - label: Property Type
+    property: Property Type
+    description: ""
+  - label: Residential Type
+    property: Residential Type
+    description: ""
+  - label: Non Use Code
+    property: Non Use Code
+    description: ""
+  - label: Assessor Remarks
+    property: Assessor Remarks
+    description: ""
+  - label: OPM remarks
+    property: OPM remarks
+    description: ""
+  - label: Location
+    property: Location
+    description: ""
