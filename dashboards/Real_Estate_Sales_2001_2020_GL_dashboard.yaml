@@ -1,6 +1,6 @@
 # Visit https://docs.rilldata.com/references/project-files to learn more about Rill project files.
 
-display_name: "Real_Estate_Sales_2001_2020_GL_dashboard"
+title: "Real_Estate_Sales_2001_2020_GL_dashboard"
 model: "Real_Estate_Sales_2001_2020_GL_model"
 default_time_range: ""
 smallest_time_grain: ""
@@ -8,6 +8,7 @@ timeseries: "Date Recorded"
 measures:
   - label: Total records
     expression: count(*)
+    name: total_records
     description: Total number of records present
     format_preset: humanize
 dimensions:
